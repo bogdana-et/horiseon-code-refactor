@@ -188,13 +188,26 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/*Removed .footer class selector*/
+
+h2 {
+    font-size: 20px;
+}
+
+/*Added a footer selector*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
 
-.footer h2 {
-    font-size: 20px;
+    display: block;
+    margin-left: 25px;
+
+    list-style-type: none;
+
+    padding-top: 15px;
+    margin-right: 20px;
+    
+    font-size: 15px;
 }
