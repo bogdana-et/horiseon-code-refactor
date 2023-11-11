@@ -25,7 +25,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/*Changed div selector to section selector*/
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,7 +34,7 @@ header div {
     font-size: 20px;
 }
 
-header div {
+header section {
     display: inline-block;
     margin-left: 25px;
 }
@@ -207,7 +208,7 @@ h2 {
     font-size: 20px;
 }
 
-/*Added footer selector*/
+/*Added a footer selector*/
 footer {
     padding: 30px;
     clear: both;
@@ -220,7 +221,6 @@ footer {
     font-size: 15px;
 }
 
-/*Added h4 selector*/
 h4 {
     font-size: 20px;
     text-align: center;
